@@ -50,7 +50,7 @@ def square(num)
     num * num
 end
     puts "if we square #{8}, we get "
-    puts square(8)
+    puts square(8)   # i need help on this one
 # What is the return value of your method?
 if we square 8, we get 
     64
