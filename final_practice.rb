@@ -62,6 +62,20 @@ if we square 8, we get
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
 # Hint: You will only write one check_stock method that checks the quantity and then prints the corresponding statement.
+#CHALLENGE 5 
+stock = 1
+inventory = ["coffee", "cheese", "tortillas", "salsa"]
+if stock == 0
+    puts inventory[1] + " - OUT of stock!"
+elsif stock == 1
+    puts inventory[3] + " running LOW"
+elsif stock == 3
+    puts inventory[2] + " running LOW"
+else stock == 4
+    puts inventory[0] + " is stocked"
+end
+
+
 
 check_stock(4, "Coffee");
 # => "Coffee is stocked"

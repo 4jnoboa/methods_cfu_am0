@@ -13,8 +13,15 @@
 # check_stock(1, "Salsa");
 # => "Salsa - running LOW"
 
-inventory = ["coffee", "torillas", "cheese", "salsa"]
-puts inventory[0]
-puts inventory[1]
-puts inventory[2]
-puts inventory[3]
+stock = 1
+inventory = ["coffee", "cheese", "tortillas", "salsa"]
+if stock == 0
+    puts inventory[1] + " - OUT of stock!"
+elsif stock == 1
+    puts inventory[3] + " running LOW"
+elsif stock == 3
+    puts inventory[2] + " running LOW"
+else stock == 4
+    puts inventory[0] + " is stocked"
+end
+
