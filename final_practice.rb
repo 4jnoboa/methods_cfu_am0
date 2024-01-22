@@ -96,3 +96,4 @@ check_stock(1, "Salsa");
 #puts inventory[2]
 #puts inventory[3]
 # im really not sure how to do this one, i will continue to study it and have an answer by mod1
+# im not sure if im suppposed to put a user input to see what the stock is for each inventory
