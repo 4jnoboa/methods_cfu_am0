@@ -24,9 +24,11 @@
 
 
 12.even? # shows if the number is true or false. boolean
+# puts 12.even?
 
 
 18.next # shows the next integer which is 19
+# puts 18.next
 
 
 
@@ -87,5 +89,5 @@ puts ["ford","lexus"].last
 # Include comments above each method call explaining the impact and return value of that method.
 # the 1st place holder is considered the zero element
 # the 2nd placeholder that shows lexus is considered the 1st element
-in the 3rd method call. it shows the last value of the variable 
+#in the 3rd method call. it shows the last value of the variable 
     
